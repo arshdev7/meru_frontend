@@ -9,6 +9,7 @@ import Cart from "./Cart/Cart";
 import Default from "./Default/Default";
 
 import {Switch, Route} from "react-router";
+import Modal from "./Modal/Modal";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <Route path={"/cart"} component={Cart}/>
               <Route component={Default}/>
           </Switch>
+          <Modal/>
       </React.Fragment>
   );
 }

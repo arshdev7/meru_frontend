@@ -2,18 +2,20 @@
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
-  --mainDark: black;
+  --mainDark: #263238;
   --mainYellow: #ffa400;
+  --lightGrey: #f5f5f5;
+  --blueish: #0277bd;
 }
 
 body{
-  font-family: 'PT Serif', serif !important;
-  background: var(--mainWhite);
+  font-family: 'Kulim Park', sans-serif !important;
+  background: var(--lightGrey) !important;
   color: var(--mainDark);
 }
 
 .text-title{
-  font-family: 'PT Serif', serif !important;
+  font-family: 'Kulim Park', sans-serif !important;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -22,6 +24,18 @@ body{
   color: var(--mainBlue);
 }
 
+.text-dark{
+  color: var(--mainDark);
+}
+
+.text-yellow{
+  color: var(--mainYellow);
+}
+
 .text-lightBlue{
   color: var(--lightBlue);
+}
+
+.text-white{
+  color: var(--mainWhite);
 }
