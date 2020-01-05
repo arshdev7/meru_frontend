@@ -17,7 +17,7 @@ class Modal extends Component {
                             <ModalContainer>
                                 <div className={"container"}>
                                     <div className={"row"}>
-                                        <div id={"modal"} className={"col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize"}>
+                                        <div id={"modal"} className={"col-8 mx-auto pb-2 col-md-6 col-lg-4 text-center text-capitalize"}>
 
                                             <h5>item added to cart</h5>
                                             <img src={img} className={"img-fluid"} alt={"img not found"}/>

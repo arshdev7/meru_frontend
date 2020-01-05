@@ -5,7 +5,7 @@ export const storeProducts = [
         id:1,
         title: "Strauss Spider Shaker Bottle 500ml",
         img:"img/bottle_1.jpg",
-        price:"499",
+        price:499,
         size:0,
         company:"Strauss",
         info: "Patented blender ball wire whisk mixes as you shake\n" +
@@ -21,7 +21,7 @@ export const storeProducts = [
         id:2,
         title: "Egab Picnic Camping Portable Waterproof Tent (4 Person)",
         img:"img/camping_tent1.jpg",
-        price:"1500",
+        price:1500,
         size:4,
         company:"Egab",
         info: "Instant 60 Second Setup.\n" +
@@ -37,7 +37,7 @@ export const storeProducts = [
         id:3,
         title: "Spalding Crossover NBA Basketball",
         img:"img/basket_ball1.jpg",
-        price:"800",
+        price:800,
         size:7,
         company:"Spalding",
         info: "In-Box Contents: 1 Basketball\n" +
@@ -52,7 +52,7 @@ export const storeProducts = [
         id:4,
         title: "Nike Boy's Plain Regular fit T-Shirt",
         img:"img/t_shirt1.jpg",
-        price:"1617",
+        price:1617,
         size:40,
         company:"Nike",
         info: "Fit Type: regular fit\n" +
@@ -68,7 +68,7 @@ export const storeProducts = [
         id:5,
         title: "Gear Polyester 38 cms Grey Travel Duffle",
         img:"img/bag1.jpg",
-        price:"899",
+        price:899,
         size:25,
         company:"Gear",
         info: "Outer Material: Polyester, Color: Grey\n" +
@@ -86,7 +86,7 @@ export const detailedProduct = {
     id:1,
     title: "Gear Polyester 38 cms Grey Travel Duffle",
     img:"img/bag1.jpg",
-    price:"899",
+    price:899,
     size:25,
     company:"Gear",
     info: "Outer Material: Polyester, Color: Grey\n" +
