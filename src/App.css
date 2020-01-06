@@ -6,11 +6,12 @@
   --mainYellow: #ffa400;
   --lightGrey: #f5f5f5;
   --blueish: #0277bd;
+  --pureWhite:#ffffff ;
 }
 
 body{
   font-family: 'Kulim Park', sans-serif !important;
-  background: var(--lightGrey) !important;
+  background: var(--pureWhite) !important;
   color: var(--mainDark);
 }
 
@@ -43,10 +44,8 @@ body{
 .btn-black{
   background: transparent;
   text-transform: capitalize;
-  font-size: 0.8rem;
+  font-size: 0.3rem;
   color: var(--mainDark);
-  border-radius: 0;
-  border: 0.1rem solid var(--mainDark);
 }
 
 .btn-black:hover{

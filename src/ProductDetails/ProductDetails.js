@@ -31,9 +31,9 @@ class ProductDetails extends Component {
                                     <h4 className={"text-blue"}>
                                         <strong>price: <span>Rs.</span>{price}</strong>
                                     </h4>
-                                    <p className={"text-capitalize font-weight-bold mt-3 mb-0"}>
+                                    <div className={"text-capitalize font-weight-bold mt-3 mb-0"}>
                                         details:-<p className={"text-muted lead"}>{info}</p>
-                                    </p>
+                                    </div>
 
                                     {/*buttons*/}
                                     <div>

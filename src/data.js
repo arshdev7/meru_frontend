@@ -19,16 +19,12 @@ export const storeProducts = [
     },
     {
         id:2,
-        title: "Egab Picnic Camping Portable Waterproof Tent (4 Person)",
-        img:"img/camping_tent1.jpg",
-        price:1500,
-        size:4,
-        company:"Egab",
-        info: "Instant 60 Second Setup.\n" +
-            "Spacious interior, room to move, freedom entry or exit.\n" +
-            "Lightweight enough for family hiking and traveling.\n" +
-            "Wearable and waterproof floor.\n" +
-            "Lightweight Steel Stakes For Stability And Strength.",
+        title: "SS 281 kashmir willow cricket bat",
+        img:"img/cricket_bat1.jpg",
+        price:1705,
+        size:6,
+        company:"SS",
+        info: "SS 281 kashmir willow cricket bat Size 6",
         inCart:false,
         count:0,
         total:0
@@ -66,8 +62,8 @@ export const storeProducts = [
     },
     {
         id:5,
-        title: "Gear Polyester 38 cms Grey Travel Duffle",
-        img:"img/bag1.jpg",
+        title: "Gear Travelling Duffle bag",
+        img:"img/bag2.jpg",
         price:899,
         size:25,
         company:"Gear",
@@ -80,12 +76,166 @@ export const storeProducts = [
         count:0,
         total:0
     },
-]
+    {
+        id:6,
+        title: "Nike Professional Football Shoes",
+        img:"img/football_shoes1.jpg",
+        price:8999,
+        size:19,
+        company:"Nike",
+        info: "Outer Material: Polyester, Color: Green\n" +
+            "Water Resistance: Water resistant\n",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:7,
+        title: "Quechua Camping Tent (4 Person)",
+        img:"img/camping_tent2.jpg",
+        price:2000,
+        size:4,
+        company:"Quechua",
+        info: "Instant 60 Second Setup.\n" +
+            "Spacious interior, room to move, freedom entry or exit.\n" +
+            "Lightweight enough for family hiking and traveling.\n" +
+            "Wearable and waterproof floor.\n" +
+            "Lightweight Steel Stakes For Stability And Strength.",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:8,
+        title: "Egab Camping Tent (4 Person)",
+        img:"img/camping_tent1.jpg",
+        price:1500,
+        size:4,
+        company:"Egab",
+        info: "Instant 60 Second Setup.\n" +
+            "Spacious interior, room to move, freedom entry or exit.\n" +
+            "Lightweight enough for family hiking and traveling.\n" +
+            "Wearable and waterproof floor.\n" +
+            "Lightweight Steel Stakes For Stability And Strength.",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:9,
+        title: "Nivia G 20-20 Volleyball",
+        img:"img/volleyball_1.jpg",
+        price:849,
+        size:4,
+        company:"Nivia",
+        info: "18 Panel Construction\n" +
+            "Microfibre composite lamination\n" +
+            "Recommended Match Ball.\n" +
+            "High Quality and Durable\n" +
+            "Indoor: All Surfaces Outdoor: Soft and Dry Surface",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:10,
+        title: "Yonex Mavis 200i Shuttle Cock",
+        img:"img/shuttles_1.jpg",
+        price:364,
+        size:7,
+        company:"Yonex",
+        info: "Nylon Shuttlecock\n" +
+            "Keep tube upright with cork facing down\n" +
+            "Store away from high temperatures\n" +
+            "Made in Taiwan\n" +
+            "Pack of 6",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:11,
+        title: "Yonex Nanoray Badminton Racquet",
+        img:"img/racquet_1.jpg",
+        price:2049,
+        size:40,
+        company:"Yonex",
+        info: "Grip Size : G4 (3.25 Inches)| Weight : 5U (75-79.9 grams)\n" +
+            "Color : Black | Head Shape : Isometric\n" +
+            "String Level : 24 pounds | Strung Type : Strung\n" +
+            "Flexibility : Hi-Flex |Balance Type : Head Light |Playing Level : All\n" +
+            "Material : Graphite",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:12,
+        title: "Cockatoo Professional Hex Dumbbell Set",
+        img:"img/dumbles_1.jpg",
+        price:2500,
+        size:10,
+        company:"Cockatoo",
+        info: "Best quality, highly durable and long lasting\n" +
+            "Ideal for professional muscle builder\n" +
+            "Cockatoo logo printed\n" +
+            "In-Box Contents: 1 Pair Dumbbells",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:13,
+        title: "Hard Bodies Wood Base Ball Bat",
+        img:"img/baseball_1.jpg",
+        price:300,
+        size:32,
+        company:"Hard Bodies",
+        info: "Material: Wood\n" +
+            "In-Box Contents: 1 X Base Ball Bat\n" +
+            "Baseball bat 32 - inch wooden\n" +
+            "Natural finish with grip",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:14,
+        title: "ASICS Men's Running Shoes",
+        img:"img/running_shoes1.jpg",
+        price:9999,
+        size:8,
+        company:"Asics",
+        info: "Closure: Lace Up\n" +
+            "Material Type: Synthetic\n" +
+            "Lifestyle: Sports\n" +
+            "Closure Type: Lace-Up",
+        inCart:false,
+        count:0,
+        total:0
+    },
+    {
+        id:15,
+        title: "Warrior Edition Foosball table",
+        img:"img/foosball.jpg",
+        price:18000,
+        size:10,
+        company:"Play In City",
+        info: "SIZE (INCH) - 54X30X34\n" +
+            "USP - 2 Inch thickness of Sidewalls on both sides\n" +
+            "Full High-grade super processed MDF materials.\n" +
+            "Chrome-plated, hollow steel rods\n" +
+            "Strong structure, excellent stability and extremely smooth action.",
+        inCart:false,
+        count:0,
+        total:0
+    },
+];
 
 export const detailedProduct = {
     id:1,
     title: "Gear Polyester 38 cms Grey Travel Duffle",
-    img:"img/bag1.jpg",
+    img:"img/bag2.jpg",
     price:899,
     size:25,
     company:"Gear",
